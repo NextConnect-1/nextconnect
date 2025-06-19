@@ -175,7 +175,7 @@ const Home = () => {
 
       <div className="min-h-screen bg-white">
         {/* Hero Section */}
-        <div className="bg-gradient-to-r from-blue-600 to-purple-700 text-white">
+        <div className="bg-gradient-to-r from-[#146fb9] to-blue-950 text-white">
           <div className="max-w-6xl mx-auto px-4 py-16 lg:py-24">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
@@ -189,7 +189,7 @@ const Home = () => {
                 <div className="flex flex-col sm:flex-row gap-4">
                   <button
                     onClick={() => navigate("/services")}
-                    className="bg-white cursor-pointer text-blue-600 font-bold py-4 px-8 rounded-lg hover:bg-gray-100 transition-colors duration-200"
+                    className="bg-white cursor-pointer text-[#146fb9] font-bold py-4 px-8 rounded-lg hover:bg-gray-100 transition-colors duration-200"
                   >
                     Our Services
                   </button>
@@ -295,7 +295,7 @@ const Home = () => {
                 >
                   {plan.popular && (
                     <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                      <span className="bg-blue-500 text-white px-4 py-2 rounded-full text-sm font-medium">
+                      <span className="bg-[#146fb9] text-white px-4 py-2 rounded-full text-sm font-medium">
                         Most Popular
                       </span>
                     </div>
@@ -319,15 +319,20 @@ const Home = () => {
                     ))}
                   </ul>
 
-                  <button
-                    className={`w-full py-4 px-6 rounded-lg font-bold transition-colors duration-200 ${
+                  <a target="blank" href="https://calendly.com/nextconnecthub/nextconnecthub">
+ <button
+                    
+                    className={`w-full cursor-pointer py-4 px-6 rounded-lg font-bold transition-colors duration-200 ${
                       plan.popular
-                        ? "bg-blue-600 text-white hover:bg-blue-700"
+                        ? "bg-[#146fb9] text-white hover:bg-blue-700"
                         : "bg-gray-100 text-gray-800 hover:bg-gray-200"
                     }`}
                   >
                     Get Started
                   </button>
+                  </a>
+
+                 
                 </div>
               ))}
             </div>
@@ -495,7 +500,7 @@ const Home = () => {
                 ) : (
                   <button
                     onClick={handleSubmit}
-                    className="w-full bg-blue-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-300"
+                    className="w-full cursor-pointer bg-[#146fb9] text-white py-3 px-6 rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-300"
                   >
                     Send Message
                   </button>

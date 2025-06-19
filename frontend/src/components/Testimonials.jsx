@@ -122,7 +122,7 @@ const Testimonials = () => {
 
       <div className="w-full min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16 px-4">
+      <div className="bg-gradient-to-r from-[#146fb9] to-blue-950 text-white py-16 px-4">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
             Our Portfolio
@@ -187,9 +187,12 @@ const Testimonials = () => {
           <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
             Contact us today to discuss your project requirements and see how we can help you achieve your online goals.
           </p>
-          <button onClick={() => navigate("/getInTouch")} className="bg-blue-600 cursor-pointer text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-300">
+          <a target='blank' href="https://calendly.com/nextconnecthub/nextconnecthub">
+ <button  className="bg-blue-600 cursor-pointer text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-300">
             Get Started
           </button>
+          </a>
+         
         </div>
       </div>
     </div>

@@ -105,7 +105,7 @@ const Services = () => {
       </div>
       <div className="w-full min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16 px-4">
+      <div className="bg-gradient-to-r from-[#146fb9] to-blue-950 text-white py-16 px-4">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
             Our Services
@@ -150,7 +150,7 @@ const Services = () => {
           {/* Pricing Table */}
           <div className="overflow-x-auto">
             <table className="w-full bg-white rounded-lg shadow-lg overflow-hidden">
-              <thead className="bg-blue-600 text-white">
+              <thead className="bg-[#146fb9] text-white">
                 <tr>
                   <th className="px-6 py-4 text-left font-semibold">Package</th>
                   <th className="px-6 py-4 text-left font-semibold">Pages</th>
@@ -187,7 +187,7 @@ const Services = () => {
       </div>
 
       {/* Call to Action */}
-      <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16 px-4">
+      <div className="bg-gradient-to-r from-[#146fb9] to-blue-950 text-white py-16 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Ready to Start Your Project?

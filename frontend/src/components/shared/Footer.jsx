@@ -10,9 +10,9 @@ const Footer = () => {
 
         {/* Logo and Description */}
         <div className="flex flex-col items-center md:items-start gap-3 text-center md:text-left">
-          <div className="flex items-center gap-1">
+          <div className="flex items-center ">
             <h1 className="text-lg font-bold">NEXTCONNECT</h1>
-            <h1 className="text-lg font-bold text-blue-700">HUB</h1>
+            <h1 className="text-lg font-bold text-[#146fb9]">HUB</h1>
           </div>
           <p className="text-sm">
             Modern, efficient, and affordable web development services for businesses of all sizes.
@@ -38,11 +38,17 @@ const Footer = () => {
         {/* Contact Info */}
         <div className="flex flex-col items-center md:items-start gap-3 text-center md:text-left">
           <h1 className="font-semibold">Contact Us</h1>
-          <div className="flex items-center gap-2 text-sm">
-            <Mail size={20} />
-            <p>contactatsamarth@gmail.com</p>
-          </div>
-          <div className="flex items-center gap-2 text-sm">
+          <a
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=nextconnecthub@gmail.com&su=Inquiry&body=Hello%20there!"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex cursor-pointer items-center gap-2 text-sm"
+>
+  <Mail size={20} />
+  <p>contactatsamarth@gmail.com</p>
+</a>
+
+          <div className="flex cursor-pointer items-center gap-2 text-sm">
             <Phone size={20} />
             <p>+91 7895833851</p>
           </div>

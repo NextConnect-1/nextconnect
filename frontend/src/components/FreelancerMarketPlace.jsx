@@ -98,7 +98,7 @@ const FreelancerMarketPlace = () => {
 
       <div className="w-full">
       {/* Hero Section */}
-      <section className="bg-blue-600 text-white py-16 px-4 sm:px-6 lg:px-8">
+      <section className="bg-[#146fb9] text-white py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
             AnyoneCanConnect Freelance Marketplace
@@ -106,7 +106,7 @@ const FreelancerMarketPlace = () => {
           <p className="text-lg sm:text-xl mb-8 opacity-90">
             Connect with skilled freelancers from our network for your specific project needs.
           </p>
-          <button className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">
+          <button className="bg-white cursor-pointer text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">
             Explore the Marketplace
           </button>
         </div>
@@ -246,7 +246,7 @@ const FreelancerMarketPlace = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-blue-600 text-white py-16 px-4 sm:px-6 lg:px-8">
+      <section className="bg-[#146fb9] text-white py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl font-bold mb-6">
             Ready to Find Your Perfect Freelancer?
@@ -255,7 +255,7 @@ const FreelancerMarketPlace = () => {
             Join AnyoneCanConnect today and connect with skilled professionals ready to help with your project.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">
+            <button className="bg-white cursor-pointer text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">
               Sign Up Now
             </button>
             <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition duration-300">

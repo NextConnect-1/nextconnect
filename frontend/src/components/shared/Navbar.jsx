@@ -27,7 +27,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className='flex items-center text-xl font-bold'>
           <h1>NEXTCONNECT</h1>
-          <span className='text-blue-700'>HUB</span>
+          <span className='text-[#146fb9]'>HUB</span>
         </div>
 
         {/* Desktop Nav */}
@@ -38,7 +38,7 @@ const Navbar = () => {
               onClick={() => handleNavigate(item.path)}
               className={`px-3 cursor-pointer py-1 rounded font-medium ${
                 location.pathname === item.path
-                  ? 'bg-blue-600 text-white'
+                  ? 'bg-[#146fb9] text-white'
                   : 'hover:bg-blue-100 text-black'
               }`}
             >

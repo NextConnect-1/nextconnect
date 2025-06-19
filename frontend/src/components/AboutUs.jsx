@@ -59,7 +59,7 @@ const AboutUs = () => {
       </div>
       <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-blue-600 to-purple-700 text-white py-16 px-4">
+      <div className="bg-gradient-to-r from-[#146fb9] to-blue-950 text-white py-16 px-4">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">About Us</h1>
           <p className="text-lg md:text-xl opacity-90 max-w-2xl mx-auto">
@@ -160,7 +160,7 @@ const AboutUs = () => {
       </div>
 
       {/* Our Work Culture Section */}
-      <div className="py-16 px-4 bg-gradient-to-r from-blue-600 to-purple-700 text-white">
+      <div className="py-16 px-4 bg-gradient-to-r from-[#146fb9] to-blue-950 text-white">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
             Our Work Culture
@@ -208,7 +208,7 @@ const AboutUs = () => {
             Contact us today to discuss your project and see how we can help bring your 
             vision to life.
           </p>
-          <button onClick={() => navigate("/getInTouch")} className="bg-blue-600 cursor-pointer hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition-colors duration-200 transform hover:scale-105">
+          <button onClick={() => navigate("/getInTouch")} className="bg-[#146fb9] cursor-pointer hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition-colors duration-200 transform hover:scale-105">
             Get in Touch
           </button>
         </div>
